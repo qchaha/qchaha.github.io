@@ -183,3 +183,9 @@ subprocess.check_output("hostname", shell=True)
 > 引用内容：今天打台风，山竹来了哦
 ```
 
+### 7.参考文档
+---
+
+[最常用法，readme文件对照](https://github.com/KrisYu/Xian/blob/master/ReadMe.md)
+
+[liquid语法，高级用法，模板显示特殊语言](https://huang-qing.github.io/github/2017/10/19/Jekyll-Liquid-API/)

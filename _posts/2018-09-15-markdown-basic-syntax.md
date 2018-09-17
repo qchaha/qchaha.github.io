@@ -41,18 +41,18 @@ title: markdown常用语法
 1. pagination
 2. comments
 3. google analytics
-
+  
 ```
 1. pagination
 2. comments
 3. google analytics
 ```
-
+  
 #### 2.2无序列表
 * pagination
 * comments
 * google analytics
-
+  
 ```
 * pagination
 * comments
@@ -77,7 +77,7 @@ hi,这是我的[主页](https://qchaha.github.io)哦
 a = 1
 print(a)
 ```
-
+  
 ````
 ```
 a = 1
@@ -85,7 +85,7 @@ print(a)
 ```
 ````
 **小贴士：在代码块里显示反引号\`时，最外层的反引号需要比显示的反引号多一个，例如上例中代码块中需要显示三个反引号\`\`\`，最外层则需要四个反引号\`\`\`\`。**
-
+  
 #### 4.2高亮代码
 ```python
 import subprocess
@@ -93,7 +93,7 @@ a = 1
 print(a)
 subprocess.check_output("hostname", shell=True)
 ```
-
+  
 ````
 ```python
 import subprocess
@@ -106,6 +106,7 @@ subprocess.check_output("hostname", shell=True)
 #### 4.3代码块中转义双花括号
 ```javascript
 {% raw %}
+{% if site.disqus %}
 <div id="disqus_thread">
   <script>
     var disqus_config = function () {
@@ -124,7 +125,7 @@ subprocess.check_output("hostname", shell=True)
 </div>
 {% endraw %}
 ```
-
+  
 ````
 ```javascript
 {% raw %}

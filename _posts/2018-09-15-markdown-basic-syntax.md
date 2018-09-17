@@ -105,7 +105,53 @@ subprocess.check_output("hostname", shell=True)
 
 #### 4.3代码块中转义双花括号
 参考这个网址：https://segmentfault.com/q/1010000004530151 ，原因是我显示不出raw和endraw的语法。
-
+```javascript   
+{% raw %}
+{% if site.disqus %}
+<div id="disqus_thread">
+  <script>
+    var disqus_config = function () {
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by     Disqus.</a></noscript>
+{% endif %}
+</div>
+{% endraw %}
+```
+  
+````
+```javascript   
+{% assign openTag = '{%' %}  
+{{ openTag }} raw %} 
+{% if site.disqus %}
+<div id="disqus_thread">
+  <script>
+    var disqus_config = function () {
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by     Disqus.</a></noscript>
+{% endif %}
+</div>
+{% endraw %}
+{{ openTag }} endraw %}
+```
+````
 
 
 ### 5.图片

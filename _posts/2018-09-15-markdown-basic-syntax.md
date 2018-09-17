@@ -104,7 +104,6 @@ subprocess.check_output("hostname", shell=True)
 ````
 
 #### 4.3代码块中转义双花括号
-参考这个网址：https://segmentfault.com/q/1010000004530151 ，原因是我显示不出raw和endraw的语法。
 ```javascript   
 {% raw %}
 {% if site.disqus %}
@@ -126,6 +125,8 @@ subprocess.check_output("hostname", shell=True)
 </div>
 {% endraw %}
 ```
+  
+
   
 ````
 ```javascript   

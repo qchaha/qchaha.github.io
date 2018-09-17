@@ -8,7 +8,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Pagination
-paginate: 10
+paginate: 5
 paginate_path: "/page:num/"
 gems: [jekyll-paginate]
 

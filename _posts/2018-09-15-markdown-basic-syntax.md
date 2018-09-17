@@ -5,7 +5,7 @@ title: markdown常用语法
 
 初次接触markdown，语法还是挺简洁的，现在把常用的语法记下，供日后参考。
 
-# 1.标题
+### 1.标题
 ---
 
 # 一级标题
@@ -34,10 +34,10 @@ title: markdown常用语法
 ```
 
 
-## 2.列表
+### 2.列表
 ---
 
-### 2.1有序列表
+#### 2.1有序列表
 1. pagination
 2. comments
 3. google analytics
@@ -48,7 +48,7 @@ title: markdown常用语法
 3. google analytics
 ```
 
-### 2.2无序列表
+#### 2.2无序列表
 * pagination
 * comments
 * google analytics
@@ -60,7 +60,7 @@ title: markdown常用语法
 ```
 
 
-## 3.超链接
+### 3.超链接
 ---
 
 hi,这是我的[主页](https://qchaha.github.io)哦
@@ -69,10 +69,10 @@ hi,这是我的[主页](https://qchaha.github.io)哦
 ```
 
 
-## 4.代码块
+### 4.代码块
 ---
 
-### 4.1普通代码
+#### 4.1普通代码
 ```
 a = 1
 print(a)
@@ -86,7 +86,7 @@ print(a)
 ````
 **小贴士：在代码块里显示反引号\`时，最外层的反引号需要比显示的反引号多一个，例如上例中代码块中需要显示三个反引号\`\`\`，最外层则需要四个反引号\`\`\`\`。**
 
-### 4.2高亮代码
+#### 4.2高亮代码
 ```python
 import subprocess
 a = 1
@@ -104,17 +104,17 @@ subprocess.check_output("hostname", shell=True)
 ````
 
 
-## 5.图片
+### 5.图片
 ---
 
-### 5.1一般用法
+#### 5.1一般用法
 我的头像：![头像](/images/avatar.png)
 
 ```
 我的头像：![头像](/images/avatar.png)
 ```
 
-### 5.2自定义图片大小
+#### 5.2自定义图片大小
 我的头像：<img src="/images/avatar.png" width="96px" height="96px">
 
 ```
@@ -122,7 +122,7 @@ subprocess.check_output("hostname", shell=True)
 ```
 
 
-## 6.引用
+### 6.引用
 ---
 
 > 引用内容：今天打台风，山竹来了哦

@@ -104,7 +104,7 @@ subprocess.check_output("hostname", shell=True)
 ````
 
 #### 4.3代码块中转义双花括号
-> 这个用法请参考这里：https://qchaha.github.io/2018/09/17/disqus.html
+> 这个用法请参考这里：https://qchaha.github.io/2018/09/17/disqus.html ，第4点：配置jekell模板
 
 
 

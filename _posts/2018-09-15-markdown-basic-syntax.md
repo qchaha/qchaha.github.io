@@ -104,11 +104,7 @@ subprocess.check_output("hostname", shell=True)
 ````
 
 #### 4.3代码块中转义双花括号
-> 在需要转义的包含双花括号的代码前后加入如下标记：
-> {% raw %}
-> {% xxx %}
-> {% {{ site.disqus.shortname }}.disqus.com/embed.js %}
-> {% endraw %}
+参考这个网址：https://segmentfault.com/q/1010000004530151 ，原因是我显示不出raw和endraw的语法。
 
 
 

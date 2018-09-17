@@ -128,7 +128,7 @@ subprocess.check_output("hostname", shell=True)
 ````
 ```javascript
 {% raw %}
-{% raw %}
+\{% raw %}
 <div id="disqus_thread">
   <script>
     var disqus_config = function () {
@@ -145,7 +145,7 @@ subprocess.check_output("hostname", shell=True)
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by     Disqus.</a></noscript>
 {% endif %}
 </div>
-{% endraw %}
+\{% endraw %}
 {% endraw %}
 ```
 ````

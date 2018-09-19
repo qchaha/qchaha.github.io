@@ -113,3 +113,7 @@ google_analytics: UA-126049566-1  # your google analytics
 完成以上，在google analytics中就可以看到实时概览效果：  
 
 ![ga效果图](/images/2018-09-19-homepageStatistics/gaExample.png)
+<br>
+### 3.成果
+
+![效果图](/images/2018-09-19-homepageStatistics/result.png)

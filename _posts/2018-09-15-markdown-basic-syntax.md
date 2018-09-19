@@ -4,7 +4,7 @@ title: markdown常用语法
 --- 
 
 初次接触markdown，语法还是挺简洁的，现在把常用的语法记下，供日后参考。
-
+<br>
 ### 1.标题
 ---
 
@@ -32,8 +32,7 @@ title: markdown常用语法
 ```
 ###### 六级标题
 ```
- 
-
+<br>
 ### 2.列表
 ---
 
@@ -58,8 +57,7 @@ title: markdown常用语法
 * comments
 * google analytics
 ```
-
-
+<br>
 ### 3.超链接
 ---
 
@@ -67,8 +65,7 @@ hi,这是我的[主页](https://qchaha.github.io)哦
 ```
 hi,这是我的[主页](https://qchaha.github.io)哦
 ```
-
-
+<br>
 ### 4.代码块
 ---
 
@@ -154,8 +151,7 @@ subprocess.check_output("hostname", shell=True)
 {{ openTag }} endraw %}
 ```
 ````
-
-
+<br>
 ### 5.图片
 ---
 
@@ -172,8 +168,7 @@ subprocess.check_output("hostname", shell=True)
 ```
 我的头像：<img src="/images/avatar.png" width="96px" height="96px">
 ```
-
-
+<br>
 ### 6.引用
 ---
 
@@ -182,7 +177,7 @@ subprocess.check_output("hostname", shell=True)
 ```
 > 引用内容：今天打台风，山竹来了哦
 ```
-
+<br>
 ### 7.参考文档
 ---
 

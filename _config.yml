@@ -16,5 +16,5 @@ gems: [jekyll-paginate]
 disqus:
   shortname: https-qchaha-github-io   # your disqus shortname
 
-# Google Analytics
-# google_analytics: xx-xxxxxxxx-1  # your google analytics
+ Google Analytics
+ google_analytics: UA-126049566-1  # your google analytics

@@ -27,16 +27,12 @@ demo使用方法非常简单，两行代码：
 
 算法a：pv的方式，单个用户连续点击n篇文章，记录n次访问量。
 ```
-<span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-</span>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 ```
 
 算法b：uv的方式，单个用户连续点击n篇文章，只记录1次访客数。
 ```
-<span id="busuanzi_container_site_uv">
-  本站访客数<span id="busuanzi_value_site_uv"></span>人次
-</span>
+<span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span>
 ```
 
 #### 1.2 单页面访问量
@@ -45,7 +41,5 @@ demo使用方法非常简单，两行代码：
 
 算法：pv的方式，单个用户点击1篇文章，本篇文章记录1次阅读量。
 ```
-<span id="busuanzi_container_page_pv">
-  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-</span>
+<span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
 ```

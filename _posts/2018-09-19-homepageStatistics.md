@@ -3,7 +3,7 @@ layout: post
 title: 在github主页中增加访问量统计和google分析
 --- 
 
-在上一篇文章中，已经为主页添加了评论的功能，那么我们再来增加显示访问量功能和google分析。
+在上一篇文章中，已经为主页添加了评论的功能，那么我们再来增加显示访问量统计功能和google分析。
 
 主要用到的工具：
 1. **[busuanzi](http://busuanzi.ibruce.info/)**，用来实现计数功能
@@ -53,8 +53,9 @@ demo使用方法非常简单，两行代码：
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <span id="busuanzi_value_page_pv">本文总阅读量<i class="fa fa-spinner fa-spin"></i>次</span>
 ```
-
-
+  
+  
+  
 ### 2.googleAnalyze
 
 googleAnalyze的集成也是非常简单，首先我们需要创建googleAnalyze账户，访问**[这里](https://analytics.google.com)**进行操作。

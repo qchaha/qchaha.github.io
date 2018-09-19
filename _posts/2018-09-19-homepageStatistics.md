@@ -28,13 +28,17 @@ demo使用方法非常简单，两行代码：
 有两种算法可选：
 
 算法a：pv的方式，单个用户连续点击n篇文章，记录n次访问量。
-```
+```html
+
 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
 ```
 
 算法b：uv的方式，单个用户连续点击n篇文章，只记录1次访客数。
-```
+```html
+
 <span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span>
+
 ```
 
 #### 1.2 单页面访问量
@@ -42,18 +46,21 @@ demo使用方法非常简单，两行代码：
 要显示每篇文章的访问量，复制以下代码添加到你需要显示的位置。
 
 算法：pv的方式，单个用户点击1篇文章，本篇文章记录1次阅读量。
-```
+```html
+
 <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
+
 ```
 
 #### 1.3 在访问量数据未取回来之前，我不想让页面显示为诸如“本站总访问量 次”，显得太low，怎么办？
 
 在这种情况下，我使用了未取到数据前，显示fontawesome的字体icon，fa-spin来做动态过渡，因此先导入fontawesome字体：
-```
+```html
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <span id="busuanzi_value_page_pv">本文总阅读量<i class="fa fa-spinner fa-spin"></i>次</span>
+
 ```
-<br>
 <br>
 ### 2.googleAnalyze
 
@@ -80,8 +87,10 @@ googleAnalyze的集成也是非常简单，首先我们需要创建googleAnalyze
 #### 2.2 集成到主页
 在主页的_config.yml中，打开GoogleAnalyze选项，并填写上你的跟踪ID：
 ```
+
 #Google Analytics
 google_analytics: UA-126049566-1  # your google analytics
+
 ```
   
   然后把全局网站代码添加到jedyll模板的head处，保证访问主页中的所有子网页都包含此代码（例子中是我的代码，每个人需要按照自己实际情况，例如跟踪ID是不一样的）：

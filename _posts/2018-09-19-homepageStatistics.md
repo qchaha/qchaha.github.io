@@ -59,17 +59,22 @@ demo使用方法非常简单，两行代码：
 
 googleAnalyze的集成也是非常简单，首先我们需要创建googleAnalyze账户，访问**[这里](https://analytics.google.com)**进行操作。
 
-#### 2.1 创建新账号
-![创建新账号](/images/2018-09-19-homepageStatistics/gaCreateAccount.png)
+#### 2.1 创建新账号  
+
+![创建新账号](/images/2018-09-19-homepageStatistics/gaCreateAccount.png)  
+
 需要填写的内容：
 * 账号名称
 * 网站名称
-* 网站网址
-![创建新账号2](/images/2018-09-19-homepageStatistics/gaCreateAccount2.png)
+* 网站网址  
+
+![创建新账号2](/images/2018-09-19-homepageStatistics/gaCreateAccount2.png)  
+
 选项默认全勾，点击**获取跟踪ID**
 创建成功后，会生成一个跟踪ID，我们需要记下两个信息：
 1. 跟踪ID
-2. 全局网站代码(gtag.js)
+2. 全局网站代码(gtag.js)  
+
 ![创建新账号3](/images/2018-09-19-homepageStatistics/gaCreateAccount3.png)
 
 #### 2.2 集成到主页
@@ -91,5 +96,6 @@ google_analytics: UA-126049566-1  # your google analytics
 </script>
 ```
 
-完成以上，在google analytics中就可以看到实时概览效果：
+完成以上，在google analytics中就可以看到实时概览效果：  
+
 ![ga效果图](/images/2018-09-19-homepageStatistics/gaExample.png)

@@ -53,9 +53,8 @@ demo使用方法非常简单，两行代码：
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <span id="busuanzi_value_page_pv">本文总阅读量<i class="fa fa-spinner fa-spin"></i>次</span>
 ```
-  
-  
-
+<br>
+<br>
 ### 2.googleAnalyze
 
 googleAnalyze的集成也是非常简单，首先我们需要创建googleAnalyze账户，访问**[这里](https://analytics.google.com)**进行操作。

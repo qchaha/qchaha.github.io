@@ -16,8 +16,10 @@ title: 在github主页中增加访问量统计和google分析
 
 demo使用方法非常简单，两行代码：
 ```javascript
+
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
 ```
 
 以下介绍我使用过的功能，摘录自busuanzi**[官方文档](http://ibruce.info/2015/04/04/busuanzi/)**

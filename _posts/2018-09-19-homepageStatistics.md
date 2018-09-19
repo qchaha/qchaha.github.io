@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在github主页中增加访问量和google分析
+title: 在github主页中增加访问量统计和google分析
 --- 
 
 在上一篇文章中，已经为主页添加了评论的功能，那么我们再来增加显示访问量功能和google分析。

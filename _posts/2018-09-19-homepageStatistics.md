@@ -55,7 +55,7 @@ demo使用方法非常简单，两行代码：
 ```
   
   
-  
+
 ### 2.googleAnalyze
 
 googleAnalyze的集成也是非常简单，首先我们需要创建googleAnalyze账户，访问**[这里](https://analytics.google.com)**进行操作。
@@ -84,7 +84,8 @@ googleAnalyze的集成也是非常简单，首先我们需要创建googleAnalyze
 #Google Analytics
 google_analytics: UA-126049566-1  # your google analytics
 ```
-然后把全局网站代码添加到jedyll模板的head处，保证访问主页中的所有子网页都包含此代码(例子中是我的代码，每个人需要按照自己实际情况，例如跟踪ID是不一样的)：
+  
+  然后把全局网站代码添加到jedyll模板的head处，保证访问主页中的所有子网页都包含此代码（例子中是我的代码，每个人需要按照自己实际情况，例如跟踪ID是不一样的）：
 ```javascript
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126049566-1"></script>

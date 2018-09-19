@@ -95,17 +95,17 @@ google_analytics: UA-126049566-1  # your google analytics
 
 ```
   
-  然后把全局网站代码添加到jedyll模板的head处，保证访问主页中的所有子网页都包含此代码（例子中是我的代码，每个人需要按照自己实际情况，例如跟踪ID是不一样的）：
+  然后把全局网站代码添加到jedyll模板的head处，保证访问主页中的所有子网页都包含此代码（例子中是我的代码，site.google_analytics是刚才在_config.yml定义的变量，每个人需要按照自己实际情况，例如跟踪ID是不一样的）：
 ```javascript
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126049566-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-126049566-1');
+  gtag('config', '{{ site.google_analytics }}');
 </script>
 
 ```

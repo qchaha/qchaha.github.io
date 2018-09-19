@@ -117,3 +117,5 @@ google_analytics: UA-126049566-1  # your google analytics
 ### 3.成果
 
 ![效果图](/images/2018-09-19-homepageStatistics/result.png)
+
+左边导航栏出现了站点访问总量和总人数，而文章标题下方显示了本文章的阅读次数。

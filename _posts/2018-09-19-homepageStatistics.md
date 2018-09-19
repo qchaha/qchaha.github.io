@@ -20,7 +20,7 @@ demo使用方法非常简单，两行代码：
 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 ```
 
-以下介绍三个常用的统计维度，摘录自busuanzi**[官方文档]**(http://ibruce.info/2015/04/04/busuanzi/)：
+以下介绍三个常用的统计维度，摘录自busuanzi**[官方文档](http://ibruce.info/2015/04/04/busuanzi/)**
 #### 1.1 站点总访问量
 
 要显示站点总访问量，复制以下代码添加到你需要显示的位置。有两种算法可选：

@@ -97,6 +97,7 @@ google_analytics: UA-126049566-1  # your google analytics
   
   然后把全局网站代码添加到jedyll模板的head处，保证访问主页中的所有子网页都包含此代码（例子中是我的代码，每个人需要按照自己实际情况，例如跟踪ID是不一样的）：
 ```javascript
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126049566-1"></script>
 <script>
@@ -106,6 +107,7 @@ google_analytics: UA-126049566-1  # your google analytics
 
   gtag('config', 'UA-126049566-1');
 </script>
+
 ```
 
 完成以上，在google analytics中就可以看到实时概览效果：  

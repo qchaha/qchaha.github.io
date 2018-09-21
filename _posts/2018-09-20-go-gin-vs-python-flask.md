@@ -353,7 +353,7 @@ flask框架，go调用net/http包get请求方式，循环次数99，调用次数
 
 ![flask框架，go调用net/http包get请求方式，循环次数99，调用次数3](/images/2019-09-20-go-gin-vs-python-flask/flask-http-99-go.png)
 
-哇，你没看错，用go调用net/http包的get方式请求flask框架，时间进一步缩短，99次循环请求仅用0.11s左右。非常期待用go的方式请求Gin有没有更惊人的速度。
+哇，你没看错，用go调用net/http包的get方式请求flask框架，时间进一步缩短，99次循环请求仅用0.11s左右。非常期待用这种方式请求Gin有没有更惊人的速度。
 
 Gin框架，go调用net/http包请求方式，循环次数99，调用次数3。
 

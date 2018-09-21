@@ -9,7 +9,8 @@ title: web框架Gin和flask的简单对比
 <br>
 ### 1. flask框架
 
-Flask是一个使用 Python 编写的轻量级 Web 应用框架。其 WSGI 工具箱采用 Werkzeug ，模板引擎则使用 Jinja2 。Flask使用 BSD 授权。
+Flask是一个使用 Python 编写的轻量级 Web 应用框架。其 WSGI 工具箱采用 Werkzeug ，模板引擎则使用 Jinja2 。Flask使用 BSD 授权。  
+
 在这里，我写了一段用来接受请求的代码：
 
 ```python
@@ -37,8 +38,10 @@ if __name__ == '__main__':
 ```
 
 内容很简单，两条路由，分别接受GET请求和POST请求。
-    GET请求直接返回`{"name":"test"}`。
-    POST请求返回请求的内容`{"v1":"第一个值","v2":"第二个值"}`
+
+GET请求直接返回`{"name":"test"}`。
+
+POST请求返回请求的内容`{"v1":"第一个值","v2":"第二个值"}`
 
 <br>
 ### 2. Gin框架

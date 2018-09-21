@@ -380,20 +380,16 @@ Gin框架，go调用net/http包get请求方式，循环次数999，调用次数3
 
 |  循环次数   |  请求方式            | flask框架处理耗时    |  Gin框架处理耗时  |
 | :--------: | :--------------- : | :-----------------: | :--------------:|
-|     99     | py调用curl-get      | 2.2s                |  2.3s          |
-|     99     | go调用curl-get      | 2.2s                |   6            |
-|     99     | py调用curl-post     | 2.2s                |  2.3s          |
-|     99     | go调用curl-post     | 2.2s                |   6            |
-|     999    | py调用curl-get      | $1                  |   7            |
-|     999    | go调用curl-get      | $1                  |   6            |
-|     999    | py调用curl-post     | $1                  |   7            |
-|     999    | go调用curl-post     | $1                  |   6            |
-|     99     | py调用requests-get  | $1                  |   5            |
-|     99     | go调用http-get      | $1                  |   6            |
-|     99     | py调用requests-post | $1                  |   5            |
-|     99     | go调用http-post     | $1                  |   6            |
-|     999    | py调用requests-get  | $1                  |   7            |
-|     999    | go调用http-get      | $1                  |   6            |
-|     999    | py调用requests-post | $1                  |   7            |
-|     999    | go调用http-post     | $1                  |   6            |
+|     99     | py调用curl-get      | 2.25s               |  2.34s         |
+|     99     | go调用curl-get      | 2.34s               |  2.41s         |
+|     99     | py调用curl-post     | 2.34s               |  2.33s         |
+|     99     | go调用curl-post     | 2.36s               |  2.48s         |
+|     99     | py调用requests-get  | 0.27s               |  0.22s         |
+|     99     | go调用http-get      | 0.11s               |  0.03s         |
+|     99     | py调用requests-post | 0.29s               |  0.24s         |
+|     99     | go调用http-post     | 0.11s               |  0.03s         |
+|     999    | py调用requests-get  | 2.87s               |  2.51s         |
+|     999    | go调用http-get      | 1.04s               |  0.25s         |
+|     999    | py调用requests-post | 3.25s               |  2.69s         |
+|     999    | go调用http-post     | 1.15s               |  0.31s         |
 

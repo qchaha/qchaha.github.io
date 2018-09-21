@@ -128,10 +128,12 @@ print("py-curl-post:{}.{}s".format((endtime - starttime).seconds,(endtime - star
 ```
 
 flask框架，py调用curl命令请求方式，循环次数99，调用次数3：
+
 ![flask框架，curl命令请求方式，循环次数99，调用次数3](/images/2019-09-20-go-gin-vs-python-flask/flask-curl-99-python.png)
 
 
 Gin框架，py调用curl命令请求方式，循环次数99，调用次数3：
+
 ![Gin框架，curl命令请求方式，循环次数99，调用次数3](/images/2019-09-20-go-gin-vs-python-flask/gin-curl-99-python.png)
 
 

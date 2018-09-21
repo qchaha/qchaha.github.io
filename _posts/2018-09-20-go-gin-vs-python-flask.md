@@ -378,14 +378,22 @@ Gin框架，go调用net/http包get请求方式，循环次数999，调用次数3
 
 下面把上述对比结果汇总到表格：
 
-|  循环次数   |  请求方式       | flask框架处理耗时    |  Gin框架处理耗时  |
-| :--------: | :-------- :   | :-----------------: | :--------------:|
-|     99     | py调用curl     | 2.2s                |  2.3s          |
-|     99     | go调用curl     | 2.2s                |   6            |
-|     999    | py调用curl     | $1                  |   7            |
-|     999    | go调用curl     | $1                  |   6            |
-|     99     | py调用requests | $1                  |   5            |
-|     99     | go调用http     | $1                  |   6            |
-|     999    | py调用requests | $1                  |   7            |
-|     999    | go调用http     | $1                  |   6            |
+|  循环次数   |  请求方式            | flask框架处理耗时    |  Gin框架处理耗时  |
+| :--------: | :--------------- : | :-----------------: | :--------------:|
+|     99     | py调用curl-get      | 2.2s                |  2.3s          |
+|     99     | go调用curl-get      | 2.2s                |   6            |
+|     99     | py调用curl-post     | 2.2s                |  2.3s          |
+|     99     | go调用curl-post     | 2.2s                |   6            |
+|     999    | py调用curl-get      | $1                  |   7            |
+|     999    | go调用curl-get      | $1                  |   6            |
+|     999    | py调用curl-post     | $1                  |   7            |
+|     999    | go调用curl-post     | $1                  |   6            |
+|     99     | py调用requests-get  | $1                  |   5            |
+|     99     | go调用http-get      | $1                  |   6            |
+|     99     | py调用requests-post | $1                  |   5            |
+|     99     | go调用http-post     | $1                  |   6            |
+|     999    | py调用requests-get  | $1                  |   7            |
+|     999    | go调用http-get      | $1                  |   6            |
+|     999    | py调用requests-post | $1                  |   7            |
+|     999    | go调用http-post     | $1                  |   6            |
 

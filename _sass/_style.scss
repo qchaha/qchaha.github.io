@@ -354,3 +354,10 @@ main {
         padding: 40px 15px;
     }
   }
+
+table {
+    border-collapse: collapse;
+}
+table td, table th {
+    border: 1px solid black;
+}
